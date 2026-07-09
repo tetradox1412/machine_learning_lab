@@ -114,7 +114,7 @@ print("--- Scikit-Learn Linear Regression Performance ---")
 print(f"MSE: {mean_squared_error(y_filtered, y_predict_sklearn):.4f}")
 print(f"R-squared: {r2_score(y_filtered, y_predict_sklearn):.4f}")
 print(f"Intercept (Bias): {model.intercept_:.4f}")
-print(f"Coefficient (Weight): {model.coef_[0]:.4f}\n")
+print(f"Coefficient (Weight): {model.coef_[0]:.4f}\n\n\n")
 
 # ==========================================
 # Task 4: Visualize the fitted line
